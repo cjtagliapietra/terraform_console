@@ -23,13 +23,13 @@ _NOTA:_ Tenemos que tener en cuenta que mientras este en ejecución
 
 Por ejemplo:
 
-  *nombres = [for s in range(3) : "nombre-${s}"]*
+  *[for s in range(3) : "nombre-${s}"] *
 
   *replace("Hello World","o","0")*
 
 O cualquier funcion propia de terraform:
 
-  * join(), split(), lookup(), coalesce(), etc*
+ *join(), split(), lookup(), coalesce(), etc*
 
 -------------------------------------------------
 -> ## Si utilizamos un archivo de infra <-
@@ -54,6 +54,7 @@ Ejemplo: generamos un _user-data_ que devuelva algo asi:
     %{ endfor }
     EOT
     }
+> template interpolation
 
 -------------------------------------------------
 

@@ -30,7 +30,7 @@ EOT
 }
 
 # resource "template_file" "my-template" {
-#   template = file("notas.txt")
+#   template = file("/etc/services")
 # }
 
 # resource "aws_instance" "web" {
