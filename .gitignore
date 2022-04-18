@@ -1,0 +1,4 @@
+.terraform*
+notas.txt
+terraform.tfstate
+Readme.md

@@ -6,7 +6,7 @@
 
 > Consola interactiva para exeperimentar con interpolaciones
   
-> Para interactuar con el state (si hay uno)
+> Para acceder a recursos en el state (si hay uno)
 
 
 _Cómo la ejecutamos?_
@@ -14,7 +14,7 @@ _Cómo la ejecutamos?_
 *terraform console*
 *terragrunt console*
 
-_NOTA:_ Tenemos que tener en cuenta que mientras este en ejecucion 
+_NOTA:_ Tenemos que tener en cuenta que mientras este en ejecución 
         tomará el lock del state en el que nos encontremos.
 
 -------------------------------------------------
@@ -25,13 +25,11 @@ Por ejemplo:
 
   *nombres = [for s in range(3) : "nombre-${s}"]*
 
-Escapando el **$**
+  *replace("Hello World","o","0")*
 
-  *[for s in range(3) : "nombre-$${s}"]*
+O cualquier funcion propia de terraform:
 
-O cualquier funcion de terraform:
-
-  *max(), join(), split(), etc*
+  * join(), split(), lookup(), coalesce(), etc*
 
 -------------------------------------------------
 -> ## Si utilizamos un archivo de infra <-
@@ -136,7 +134,7 @@ _Ejemplo, importar un attachment segun la documentación:_
 
 -> ## Preguntas? <-
 <br>
-
+https://github.com/cjtagliapietra/terraform_console
 
 
 -> # FIN <-
