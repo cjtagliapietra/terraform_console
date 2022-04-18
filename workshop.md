@@ -135,8 +135,18 @@ _Ejemplo, importar un attachment segun la documentación:_
 
 -> ## Preguntas? <-
 <br>
-https://github.com/cjtagliapietra/terraform_console
 
 
 -> # FIN <-
+<br>
+
+
+
+
+
+
+
+
+-> https://github.com/cjtagliapietra/terraform_console <-
+
 -------------------------------------------------
